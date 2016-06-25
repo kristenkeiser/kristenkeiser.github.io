@@ -56,6 +56,11 @@ hr {
 	margin: 40px 20px 20px 20px;
 	background: #ebf2f2;
 	font-size: 14px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: -1;
 }
 
 .footer-flex {
@@ -68,6 +73,7 @@ hr {
 
 .footer {
 	width: 50%;
+
 }
 
 #about {
@@ -110,7 +116,7 @@ hr {
 
 .bottom-nav {
 	height: 60px;
-	margin: 20px;
+	margin: 40px 20px 20px 20px;
 }
 
 .client-name {
@@ -140,9 +146,12 @@ hr {
 	font-weight: 400;
 	text-decoration: none;
 	color: black;
+	margin-bottom: 240px
 }
 
 .main {
 	z-index: 1;
+	background: white;
+	margin-bottom: 240px
 }
 
