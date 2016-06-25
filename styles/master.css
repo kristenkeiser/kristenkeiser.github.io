@@ -68,7 +68,6 @@ hr {
 	display: flex;
 	font-family: 'Droid Serif';
 	justify-content: space-between;
-
 }
 
 .footer {
@@ -117,6 +116,7 @@ hr {
 .bottom-nav {
 	height: 60px;
 	margin: 40px 20px 20px 20px;
+	padding-bottom: 40px;
 }
 
 .client-name {
@@ -146,12 +146,11 @@ hr {
 	font-weight: 400;
 	text-decoration: none;
 	color: black;
-	margin-bottom: 240px
 }
 
 .main {
 	z-index: 1;
 	background: white;
-	margin-bottom: 240px
+	margin-bottom: 220px
 }
 
