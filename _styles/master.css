@@ -1,0 +1,150 @@
+.overview-container {
+	display: flex;
+	margin: 20px;
+}
+
+.overview-image {
+	height: auto;
+	width: 100%;
+}
+
+hr {
+	margin: 20px;
+}
+
+.portfolio-flex-container {
+	display: flex;
+	flex-flow: row;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+	margin: 20px;
+	justify-content: center;
+}
+
+.project-preview {
+	margin: 10px;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: rgba(255, 255, 255, 0.9);
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+
+.text {
+	font-family: 'Droid Serif', serif;
+	color: black;
+	overflow-wrap: normal;
+	line-height: 25px;
+}
+
+.project-preview:hover .overlay {
+	display: flex;
+}
+
+.footer-container {
+	height: 200px;
+	margin: 40px 20px 20px 20px;
+	background: #ebf2f2;
+	font-size: 14px;
+}
+
+.footer-flex {
+	margin: 20px;
+	display: flex;
+	font-family: 'Droid Serif';
+	justify-content: space-between;
+
+}
+
+.footer {
+	width: 50%;
+}
+
+#about {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Droid Serif';
+	overflow-wrap: normal;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#left {
+	text-align: left;
+}
+
+#right {
+	text-align: right;
+}
+
+.client {
+	font-weight: 700;
+}
+
+.project-header {
+	margin: 40px 20px 40px 20px;
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-image-container {
+	margin: 20px;
+}
+
+.project-image {
+	width: 100%;
+	height: auto;
+}
+
+.bottom-nav {
+	height: 60px;
+	margin: 20px;
+	margin-bottom: 200px
+}
+
+.client-name {
+	font-family: 'Droid Serif';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+}
+
+.project-info {
+	font-family: 'Droid Serif';
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.art-director {
+	font-family: 'Droid Serif';
+	font-weight: 400;
+	font-style: italic;
+	line-height: 25px;
+}
+
+.bottom-nav a{
+	font-family: 'Droid Serif';
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+.main {
+	z-index: 1;
+	margin-bottom: 200px;
+}
+
