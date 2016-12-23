@@ -1,0 +1,73 @@
+.main {
+	border: 15px solid #000000;
+	padding-left: 100px;
+	height: 96.5vh;
+	background: #FBFBFB;
+}
+
+.centered {
+	margin: 0;
+	position: absolute;               
+	top: 50%;                         
+	transform: translate(0, -50%) 
+}   
+
+.sub {
+	padding-top: 60px;
+}
+
+.h1 {
+	font-family: Lora;
+	font-size: 36px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 40px;
+	max-width: 350px;
+}
+
+.body {
+	font-family: Lora-Regular;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0;
+}
+
+.note {
+	font-family: Lora-Italic;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0;
+}
+
+#pentagram {
+	color: #F2122D;
+}
+
+#h1bold {
+	font-family: Lora-Bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+#download {
+	font-family: Lora-bolditalic;
+}
+
+@media only screen and (max-width : 525px) {
+	.main{
+	padding-left: 30px;
+	padding-right: 30px;
+	}
+
+	.sub{
+		padding-top: 30px;
+		max-width: 300px;
+	}
+}
