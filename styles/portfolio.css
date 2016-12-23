@@ -1,7 +1,7 @@
 .main {
 	border: 15px solid #000000;
 	padding-left: 100px;
-	height: 96.5vh;
+	height: 100vh;
 	background: #FBFBFB;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #h1bold {
-	font-family: 'Lora-bold', serif;
+	font-family: Lora-bold;
 }
 
 a {
