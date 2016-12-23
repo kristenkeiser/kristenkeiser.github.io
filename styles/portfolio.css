@@ -13,7 +13,7 @@
 }   
 
 .h1 {
-	font-family: Lora;
+	font-family: 'Lora', serif;
 	font-size: 36px;
 	color: #000000;
 	letter-spacing: 0;
@@ -22,7 +22,7 @@
 }
 
 .body {
-	font-family: Lora-Regular;
+	font-family: 'Lora', serif;
 	font-size: 16px;
 	color: #000000;
 	letter-spacing: 0;
@@ -32,7 +32,8 @@
 }
 
 .note {
-	font-family: Lora-Italic;
+	font-family: 'Lora', serif;
+	font-style: italic;
 	font-size: 16px;
 	color: #000000;
 	letter-spacing: 0;
@@ -43,7 +44,7 @@
 }
 
 #h1bold {
-	font-family: Lora-Bold;
+	font-family: 'Lora-bold', serif;
 }
 
 a {
@@ -56,7 +57,7 @@ a:hover {
 }
 
 #download {
-	font-family: Lora-bolditalic;
+	font-family: 'Lora-bolditalic', serif;
 }
 
 @media only screen and (max-width : 600px) {
