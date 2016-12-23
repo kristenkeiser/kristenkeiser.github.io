@@ -12,10 +12,6 @@
 	transform: translate(0, -50%) 
 }   
 
-.sub {
-	padding-top: 60px;
-}
-
 .h1 {
 	font-family: Lora;
 	font-size: 36px;
@@ -30,6 +26,7 @@
 	font-size: 16px;
 	color: #000000;
 	letter-spacing: 0;
+	padding-top: 60px;
 }
 
 .note {
@@ -60,14 +57,23 @@ a:hover {
 	font-family: Lora-bolditalic;
 }
 
-@media only screen and (max-width : 525px) {
+@media only screen and (max-width : 600px) {
 	.main{
 	padding-left: 30px;
-	padding-right: 30px;
 	}
 
-	.sub{
+	.body{
 		padding-top: 30px;
 		max-width: 300px;
+	}
+}
+
+@media only screen and (max-width : 375px) {
+	.h1{
+		max-width: 200px;
+	}
+
+	.body{
+		max-width: 200px;
 	}
 }
