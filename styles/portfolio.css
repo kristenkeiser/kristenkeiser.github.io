@@ -27,6 +27,8 @@
 	color: #000000;
 	letter-spacing: 0;
 	padding-top: 60px;
+	line-height: 20px;
+	max-width: 540px;
 }
 
 .note {
