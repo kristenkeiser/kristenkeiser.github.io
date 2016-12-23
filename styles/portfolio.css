@@ -72,11 +72,20 @@ a:hover {
 }
 
 @media only screen and (max-width : 375px) {
-	.h1{
+	.h1 {
 		max-width: 200px;
+		font-size: 72px;
+		line-height: 80px;
 	}
 
-	.body{
+	.body {
 		max-width: 200px;
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.note {
+		font-size: 32px;
+		line-height: 40px;
 	}
 }
