@@ -67,25 +67,12 @@ a:hover {
 	font-style: italic;
 }
 
-@media only screen and (max-width: 600px) 
-and (max-device-width: 600px) {
-	.main {
-		padding-left: 30px;
-	}
-
-	.h1 {
-		max-width: 510px;
-	}
-
-	.body {
-		margin-right: 45px;	
-	}
-}
-
 @media only screen and (max-device-width: 450px) {
 	.main {
-		border: 30px solid#000000;
-		min-height: calc(100vh - 60px);
+		border-left: 30px solid #343434;
+		border-top: 30px solid #343434;
+		border-right: 30px solid #000000;
+		border-bottom: 30px solid #000000;		min-height: calc(100vh - 60px);
 
 	}
 
