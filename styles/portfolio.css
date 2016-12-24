@@ -93,11 +93,13 @@ and (max-device-width: 600px) {
 	.body {
 		font-size: 32px;
 		line-height: 40px;
+		font-size: 40px;
+		line-height: 48px;
 	}
 
 	.note {
-		font-size: 32px;
-		line-height: 40px;
+		font-size: 40px;
+		line-height: 48px;
 	}
 }
 
