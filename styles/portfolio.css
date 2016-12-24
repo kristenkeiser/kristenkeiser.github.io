@@ -67,12 +67,41 @@ a:hover {
 	font-style: italic;
 }
 
+@media only screen and (max-device-width: 768px) {
+	.main {
+		border-left: 30px solid #343434;
+		border-top: 30px solid #343434;
+		border-right: 30px solid #000000;
+		border-bottom: 30px solid #000000;		
+		min-height: calc(100vh - 60px);
+
+	}
+
+	.h1 {
+		font-size: 56px;
+		line-height: 60px;
+		max-width: 700px;
+	}
+
+	.body {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.note {
+		font-size: 32px;
+		line-height: 40px;
+	}
+}
+
+
 @media only screen and (max-device-width: 450px) {
 	.main {
 		border-left: 30px solid #343434;
 		border-top: 30px solid #343434;
 		border-right: 30px solid #000000;
-		border-bottom: 30px solid #000000;		min-height: calc(100vh - 60px);
+		border-bottom: 30px solid #000000;		
+		min-height: calc(100vh - 60px);
 
 	}
 
@@ -83,8 +112,6 @@ a:hover {
 	}
 
 	.body {
-		font-size: 32px;
-		line-height: 40px;
 		font-size: 40px;
 		line-height: 48px;
 	}
