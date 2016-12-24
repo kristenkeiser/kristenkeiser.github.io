@@ -22,7 +22,8 @@
 	color: #000000;
 	letter-spacing: 0;
 	line-height: 40px;
-	max-width: 350px;
+	max-width: 500px;
+	margin-right: 115px;
 }
 
 .body {
@@ -33,6 +34,7 @@
 	padding-top: 60px;
 	line-height: 25px;
 	max-width: 600px;
+	margin-right: 115px;
 }
 
 .note {
@@ -67,6 +69,24 @@ a:hover {
 	font-style: italic;
 }
 
+@media only screen and (max-width: 600px) {
+	.main {
+		padding-left: 30px;
+	}
+
+	.h1 {
+		margin-right: 60px;
+	}
+
+	.body {
+		margin-right: 60px;
+	}
+
+	.note {
+		margin-right: 60px;
+	}
+}
+
 @media only screen and (max-device-width: 768px) {
 	.main {
 		border-left: 30px solid #343434;
@@ -74,23 +94,27 @@ a:hover {
 		border-right: 30px solid #000000;
 		border-bottom: 30px solid #000000;		
 		min-height: calc(100vh - 60px);
-
 	}
 
 	.h1 {
 		font-size: 56px;
 		line-height: 60px;
-		max-width: 700px;
+		margin-right: 150px;
+		max-width: 100%;
 	}
 
 	.body {
 		font-size: 32px;
 		line-height: 40px;
+		margin-right: 150px;
+		max-width: 100%;
 	}
 
 	.note {
 		font-size: 32px;
 		line-height: 40px;
+		margin-right: 150px;
+		max-width: 100%;
 	}
 }
 
@@ -108,12 +132,16 @@ a:hover {
 	.h1 {
 		font-size: 72px;
 		line-height: 80px;
-		max-width: 700px;
+		margin-right: 150px;
+		max-width: 100%;
 	}
 
 	.body {
 		font-size: 40px;
 		line-height: 48px;
+		margin-right: 150px;
+		max-width: 100%;
+
 	}
 
 	.note {
