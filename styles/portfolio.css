@@ -3,6 +3,7 @@
 	padding-left: 100px;
 	height: 100vh;
 	background: #FBFBFB;
+	margin: 0;
 }
 
 .centered {
@@ -27,8 +28,8 @@
 	color: #000000;
 	letter-spacing: 0;
 	padding-top: 60px;
-	line-height: 20px;
-	max-width: 540px;
+	line-height: 25px;
+	max-width: 600px;
 }
 
 .note {
@@ -40,11 +41,12 @@
 }
 
 #pentagram {
-	color: #F2122D;
+	color: red;
 }
 
 #h1bold {
-	font-family: Lora-bold;
+	font-family: 'Lora';
+	font-weight: 700;
 }
 
 a {
@@ -57,29 +59,18 @@ a:hover {
 }
 
 #download {
-	font-family: 'Lora-bolditalic', serif;
+	font-family: 'Lora', serif;
+	font-weight: 700;
+	font-style: italic;
 }
 
-@media only screen and (max-width : 600px) {
-	.main{
-	padding-left: 30px;
-	}
-
-	.body{
-		padding-top: 30px;
-		max-width: 300px;
-	}
-}
-
-@media only screen and (max-width : 375px) {
+@media only screen and (max-device-width : 450px) {
 	.h1 {
-		max-width: 200px;
 		font-size: 72px;
 		line-height: 80px;
 	}
 
 	.body {
-		max-width: 200px;
 		font-size: 32px;
 		line-height: 40px;
 	}
@@ -89,3 +80,4 @@ a:hover {
 		line-height: 40px;
 	}
 }
+
