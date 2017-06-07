@@ -160,7 +160,6 @@ li a:hover {
 	}
 
 	.nav {
-		font-family: Lora-Bold;
 		font-size: 32px;
 		color: #9B9B9B;
 		letter-spacing: 0;
@@ -179,14 +178,12 @@ li a:hover {
 	}
 
 	#nav-active {
-		font-family: Lora-Bold;
 		font-size: 32px;
 		color: #000000;
 		letter-spacing: 0;
 	}
 
 	.h1 {
-		font-family: 'Lora', serif;
 		font-size: 48px;
 		color: #000000;
 		letter-spacing: 0;
@@ -196,7 +193,6 @@ li a:hover {
 	}
 
 	.h2 {
-		font-family: Lora-Regular;
 		font-size: 24px;
 		color: #0F0F0F;
 		letter-spacing: 0;
@@ -206,7 +202,6 @@ li a:hover {
 	}
 
 	.project-nav {
-		font-family: Lora-Bold;
 		font-size: 32px;
 		color: #9B9B9B;
 		letter-spacing: 0;
