@@ -11,7 +11,7 @@
 }
 
 .nav {
-	font-family: 'Lora-Bold', serif;
+	font-family: Lora-Bold;
 	font-size: 16px;
 	color: #9B9B9B;
 	letter-spacing: 0;
@@ -30,7 +30,7 @@
 }
 
 #nav-active {
-	font-family: 'Lora-Bold', serif;
+	font-family: Lora-Bold;
 	font-size: 16px;
 	color: #000000;
 	letter-spacing: 0;
@@ -53,7 +53,7 @@
 }
 
 .h2 {
-	font-family: 'Lora-Regular', serif;
+	font-family: Lora-Regular;
 	font-size: 16px;
 	color: #0F0F0F;
 	letter-spacing: 0;
@@ -63,7 +63,7 @@
 }
 
 .h3 {
-	font-family: 'Lora-Regular', serif;
+	font-family: 'Lora-Regular', sans-serif;
 	color: black;
 	overflow-wrap: normal;
 	line-height: 25px;
@@ -129,7 +129,7 @@ li a:hover {
 }
 
 .project-nav {
-	font-family: 'Lora-Bold', serif;
+	font-family: Lora-Bold;
 	font-size: 16px;
 	color: #9B9B9B;
 	letter-spacing: 0;
@@ -154,7 +154,7 @@ li a:hover {
 	}
 
 	.nav {
-		font-family: 'Lora-Bold', serif;
+		font-family: Lora-Bold;
 		font-size: 32px;
 		color: #9B9B9B;
 		letter-spacing: 0;
@@ -173,7 +173,7 @@ li a:hover {
 	}
 
 	#nav-active {
-		font-family: 'Lora-Bold', serif;
+		font-family: Lora-Bold;
 		font-size: 32px;
 		color: #000000;
 		letter-spacing: 0;
@@ -190,7 +190,7 @@ li a:hover {
 	}
 
 	.h2 {
-		font-family: 'Lora', serif;
+		font-family: Lora-Regular;
 		font-size: 24px;
 		color: #0F0F0F;
 		letter-spacing: 0;
@@ -200,7 +200,7 @@ li a:hover {
 	}
 
 	.project-nav {
-		font-family: 'Lora-Bold', serif;
+		font-family: Lora-Bold;
 		font-size: 32px;
 		color: #9B9B9B;
 		letter-spacing: 0;
