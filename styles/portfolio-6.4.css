@@ -141,3 +141,76 @@ li a:hover {
 	text-decoration: none;
 	list-style-type: none;
 }
+
+@media only screen and (max-device-width: 450px) {
+	.main {
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 64px;
+		padding-bottom: 24px;
+		min-height: calc(100vh - 176px);
+		background: #FFFFFF;
+		margin: 0px;
+	}
+
+	.nav {
+		font-family: Lora-Bold;
+		font-size: 32px;
+		color: #9B9B9B;
+		letter-spacing: 0;
+		text-align: center;
+	}
+
+	.nav li{
+		text-decoration: none;
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	.nav a {
+		width: 125px;
+		display: block;
+	}
+
+	#nav-active {
+		font-family: Lora-Bold;
+		font-size: 32px;
+		color: #000000;
+		letter-spacing: 0;
+	}
+
+	.h1 {
+		font-family: 'Lora', serif;
+		font-size: 48px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 56px;
+		margin-top: 56px;
+		text-align: center;
+	}
+
+	.h2 {
+		font-family: Lora-Regular;
+		font-size: 24px;
+		color: #0F0F0F;
+		letter-spacing: 0;
+		line-height: 48px;
+		margin-top: 24px;
+		text-align: center;
+	}
+
+	.project-nav {
+		font-family: Lora-Bold;
+		font-size: 32px;
+		color: #9B9B9B;
+		letter-spacing: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.thumbnail {
+		display: block;
+		justify-content: center;
+	}
+
+}
