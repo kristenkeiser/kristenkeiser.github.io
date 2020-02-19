@@ -1,4 +1,4 @@
 AuthName "uncommon"
 AuthType Basic
-AuthUserFile /.htpasswd
+AuthUserFile kristenkeiser.github.io/.htpasswd
 Require valid-user
